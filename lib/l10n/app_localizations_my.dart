@@ -9,7 +9,16 @@ class AppLocalizationsMy extends AppLocalizations {
   AppLocalizationsMy([String locale = 'my']) : super(locale);
 
   @override
+  String get homePageTitle => 'ဘာသာစကား စမ်းသပ်ခြင်း';
+
+  @override
   String get helloWorld => 'မင်္ဂလာပါ ကမ္ဘာကြီးရေ';
+
+  @override
+  String get emailInputLabel => 'အီးမေးလ်';
+
+  @override
+  String get invalidValue => 'အကျုံးမဝင်ပါ';
 
   @override
   String get reload => 'ပြန်လုပ်ပါ';

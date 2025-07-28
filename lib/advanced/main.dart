@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localization_sample/l10n/app_localizations.dart';
-import 'package:flutter_localization_sample/l10n/localizations.dart';
-import 'package:flutter_localization_sample/l10n/localization_service.dart';
-import 'package:flutter_localization_sample/service_locator.dart';
+import 'package:flutter_localization_sample/advanced/localizations.dart';
+import 'package:flutter_localization_sample/advanced/localization_service.dart';
+import 'package:flutter_localization_sample/advanced/service_locator.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

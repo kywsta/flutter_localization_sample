@@ -98,25 +98,43 @@ abstract class AppLocalizations {
     Locale('my'),
   ];
 
+  /// The title of the home page
+  ///
+  /// In en, this message translates to:
+  /// **'Localization Sample'**
+  String get homePageTitle;
+
   /// The conventional newborn programmer greeting
   ///
   /// In en, this message translates to:
   /// **'Hello World!'**
   String get helloWorld;
 
-  /// No description provided for @reload.
+  /// The label of the email input field
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get emailInputLabel;
+
+  /// The invalid value error message
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid value'**
+  String get invalidValue;
+
+  /// The reload button text
   ///
   /// In en, this message translates to:
   /// **'Reload'**
   String get reload;
 
-  /// No description provided for @nextPage.
+  /// The next page button text
   ///
   /// In en, this message translates to:
   /// **'Next Page'**
   String get nextPage;
 
-  /// No description provided for @nextPageTitle.
+  /// The title of the next page
   ///
   /// In en, this message translates to:
   /// **'Page 2'**

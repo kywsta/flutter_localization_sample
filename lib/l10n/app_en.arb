@@ -1,9 +1,30 @@
 {
+  "homePageTitle": "Localization Sample",
+  "@homePageTitle": {
+    "description": "The title of the home page"
+  },
   "helloWorld": "Hello World!",
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
   },
+  "emailInputLabel": "Email",
+  "@emailInputLabel": {
+    "description": "The label of the email input field"
+  },
+  "invalidValue": "Invalid value",
+  "@invalidValue": {
+    "description": "The invalid value error message"
+  },
   "reload": "Reload",
+  "@reload": {
+    "description": "The reload button text"
+  },
   "nextPage": "Next Page",
-  "nextPageTitle": "Page 2"
+  "@nextPage": {
+    "description": "The next page button text"
+  },
+  "nextPageTitle": "Page 2",
+  "@nextPageTitle": {
+    "description": "The title of the next page"
+  }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localization_sample/constants.dart';
+import 'package:flutter_localization_sample/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocalizationService extends ChangeNotifier {
@@ -10,13 +10,13 @@ class LocalizationService extends ChangeNotifier {
   }
 
   final String _selectedLocaleKey = 'selected_locale';
-  Locale _currentLocale = SupportedLocales.en;
+  Locale _currentLocale = AppLocalizations.supportedLocales.first;
 
   Locale get currentLocale => _currentLocale;
 
   Future<void> initialize() async {
     final savedLocale = await _getSavedLocale();
-    _currentLocale = savedLocale ?? SupportedLocales.en;
+    _currentLocale = savedLocale ?? AppLocalizations.supportedLocales.first;
     notifyListeners();
   }
 

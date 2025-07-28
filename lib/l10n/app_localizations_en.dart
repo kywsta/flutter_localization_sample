@@ -9,7 +9,16 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get homePageTitle => 'Localization Sample';
+
+  @override
   String get helloWorld => 'Hello World!';
+
+  @override
+  String get emailInputLabel => 'Email';
+
+  @override
+  String get invalidValue => 'Invalid value';
 
   @override
   String get reload => 'Reload';
